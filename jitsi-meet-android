@@ -1,5 +1,5 @@
 step 1:
-git clone https://github.com/jitsi/jitsi-meet.git
+git clone https://github.com/jitsi/jitsi-meet/tree/mobile-20.2.1.git
 
 move inside jitsi-meet folder
 
