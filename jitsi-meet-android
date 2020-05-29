@@ -6,14 +6,18 @@ move inside jitsi-meet folder
 step 2:
 npm install
 
-step 3:
-./android/scripts/release-sdk.sh /tmp/repo
 
 for size error in step 3:
 echo fs.inotify.max_user_watches=1524288 | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 Node js Size error:-
 export NODE_OPTIONS="--max-old-space-size=8192"
+
+step 3:
+./android/scripts/release-sdk.sh /tmp/repo
+
+step 4:
+./gradlew clean assembleRelease publish 
 
 
 Jq command not found:
