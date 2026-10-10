@@ -1,0 +1,29 @@
+{
+  "model": "Qwen2.5-1.5B-Instruct",
+  "sourceRepository": "litert-community/Qwen2.5-1.5B-Instruct",
+  "sourceUrl": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct/resolve/main/Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm?download=true",
+  "runtime": "LiteRT-LM",
+  "selectedArtifact": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm.zst",
+  "files": [
+    {
+      "name": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm",
+      "bytes": 1597931520,
+      "sha256": "faa60663b333290c1496c499828b21d3e3254a788cacd8cce917ce0f761a2dc9",
+      "notes": "Raw LiteRT-LM model file. No app-side decompression needed."
+    },
+    {
+      "name": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm.zst",
+      "bytes": 1371363265,
+      "sha256": "a89b04e3276f69c50749e5244ca8e60a564d4b70e221e7ed5870b150ec716c3e",
+      "compression": "zstd --ultra -22",
+      "notes": "Smallest artifact produced in local compression tests. Requires zstd decompression in the app before LiteRT-LM can load the .litertlm file."
+    },
+    {
+      "name": "Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.litertlm.xz",
+      "bytes": 1372984116,
+      "sha256": "02b3796e0235dfa7139693ab31505f8862413624ded38dd6b153a9eb09e53ad2",
+      "compression": "xz -9e",
+      "notes": "Slightly larger than zstd in this test."
+    }
+  ]
+}
