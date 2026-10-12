@@ -1,0 +1,27 @@
+{
+  "model": "EmbeddingGemma 2 Text Vision 440M",
+  "sourceRepository": "litert-community/embeddinggemma-2-text-vision-440m-litert-lm",
+  "sourceUrl": "https://huggingface.co/litert-community/embeddinggemma-2-text-vision-440m-litert-lm/resolve/main/embeddinggemma-2-text-vision-440m.litertlm",
+  "runtime": "LiteRT-LM",
+  "selectedArtifact": "embeddinggemma-2-text-vision-440m.litertlm.zst",
+  "capabilities": [
+    "text",
+    "image"
+  ],
+  "embeddingDimension": 768,
+  "files": [
+    {
+      "name": "embeddinggemma-2-text-vision-440m.litertlm",
+      "bytes": 387710976,
+      "sha256": "92dcbea108899e5d6e30d919b0744f90d9967e80c67a4ab5503ac16d54f62eb0",
+      "notes": "Raw LiteRT-LM text+vision embedding model file from Hugging Face."
+    },
+    {
+      "name": "embeddinggemma-2-text-vision-440m.litertlm.zst",
+      "bytes": 304306050,
+      "sha256": "629bf4575faf5de82147eceb8228f964341b3fff3c051d1bd1e075e93c95379b",
+      "compression": "zstd --ultra -22",
+      "notes": "Compressed artifact for app download. Requires zstd decompression before LiteRT-LM can load the .litertlm file."
+    }
+  ]
+}
