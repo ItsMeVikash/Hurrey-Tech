@@ -1,0 +1,26 @@
+{
+  "model": "SmolVLM2 500M",
+  "sourceRepository": "litert-community/SmolVLM2-500M",
+  "sourceUrl": "https://huggingface.co/litert-community/SmolVLM2-500M/resolve/main/SmolVLM2-500M.litertlm",
+  "runtime": "LiteRT-LM",
+  "selectedArtifact": "SmolVLM2-500M.litertlm.zst",
+  "capabilities": [
+    "text",
+    "image"
+  ],
+  "files": [
+    {
+      "name": "SmolVLM2-500M.litertlm",
+      "bytes": 360822960,
+      "sha256": "b808b328d845a600a33c5295f93d9217487317bd334dbc91b2a8d50e26e60ad0",
+      "notes": "Raw LiteRT-LM image-and-text model file from Hugging Face."
+    },
+    {
+      "name": "SmolVLM2-500M.litertlm.zst",
+      "bytes": 302561527,
+      "sha256": "8d45e146aad7d3eac5c4634a4c06c34c77565efe8c5bae70d322570ce5bd69dc",
+      "compression": "zstd -9 -T0",
+      "notes": "Compressed artifact for app download. Requires zstd decompression before LiteRT-LM can load the .litertlm file."
+    }
+  ]
+}
